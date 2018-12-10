@@ -74,37 +74,48 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://www.bdhobare.com/}{\Large Obadiah M Obare}} & Email : \href{mailto:bdhobare@gmail.com}{bdhobare@gmail.com}\\
+  \textbf{\href{https://www.bdhobare.com/}{\Large Miles Obare}} & Email : \href{mailto:bdhobare@gmail.com}{bdhobare@gmail.com}\\
   \href{https://bdhobare.com/}{www.bdhobare.com} & Mobile : +254-700864995 \\
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+  \resumeSubheading
+      {Betika}{Nairobi, KE}
+      {Senior Software Engineer, Data and Distributed Systems }{Aug 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Containerization}
+          {Containerized the company services and moved the system to a micro-services architecture using Docker and Kubernetes. Set up a CI/CD pipeline and testing framework. This reduced deployment times significantly and improved the code quality.}
+        \resumeItem{Betika wallet}
+          {Built a digital wallet in Java for users to deposit and withdraw from. Integrated with existing digital wallets: MPESA and Aritel Money. Set up a failure recovery mechanism for failed transactions.}
+        \resumeItem{Data platform}
+          {Built a data processing and analysis platform on top of BigQuery, Apache Beam and Spark to inform other departments on the user behaviour and performance of the product.}
+     \resumeItemListEnd
+     
   	    \resumeSubheading
       {Loanbee Limited}{Nairobi, KE}
-      {Machine Learning and Distributed Systems Engineer}{Dec 2017 - Present}
+      {Software Engineer, Data and Machine Learning}{Dec 2017 - Present}
       \resumeItemListStart
         \resumeItem{Alternative Credit Scoring}
-          {Built an alternative scoring model using machine learning(neural networks) and mobile data.Reduced default rate by 15\%. Built the architecture to serve the model via REST APIs.Based on Tensorflow.}
+          {Built an alternative scoring model using data from mobile transactions.The model was based on fully-connected neural networks. It reduced default rate to below 10\%.  This research was presented at the Deep Indaba conference in Cape Town.}
         \resumeItem{Fraud detection and mitigation}
-          {Reduced the number of fraudulent users by using decision treees, neural networks and gradient boosting to categorise users based on their activity and behavior.}
-        \resumeItem{Data pipeline and microservices}
-          {Built the big data pipeline to easily test machine learning models and serve them through APIs by using Hadoop, Spark, Kafka and AWS.Built the microservices using Docker and reduced the ETL process significantly.}
+          {Built a fraud detection model to categorise users based on their activity and payment behavior. The model reduced cases of fraudulent people getting loans and items on credit. The model was based on gradient boosted trees and neural networks. }
+        \resumeItem{ETL data pipeline}
+          {Built the data pipeline to clean and extract information from the data collected from users before credit scoring is done. The pipeline was also used to easily test machine learning models.}
      \resumeItemListEnd
       
 	\resumeSubheading
       {Deveint Limited}{Nairobi, KE}
-      {Senior Software Engineer}{May 2016 - Dec 2017}
+      {Software Engineer}{May 2016 - Dec 2017}
       \resumeItemListStart
       \resumeItem{Mobile Development}
-          {Started the initial team of Android and iOS developers.The team has since grown to over 4 developers and over 5 apps deployed to Playstore and Appstore with over 100k downloads in total.}
+          {Built Android and iOS applications for the company clients. Meeting with clients to make sure the design requirements are met.Deployed 3 applications with one having over 100k downloads.}
         \resumeItem{Nairobi Securities Exchange}
-          {Led a team of 5 engineers to develop Android and iOS apps that enable users to access real-time trading statistics. Automated the migration of over 8GB of Excel data into PostgreSQL and HDFS. Sanitised the data and removed any unwanted values.}
+          {Led a team of 4 engineers to develop Android and iOS apps that enable users to access real-time trading statistics. Automated the migration of over 8GB of Excel data into PostgreSQL and HDFS. Sanitised the data and removed any unwanted values.}
         \resumeItem{Linux System Administration}
-          {Formed the first cyber security team in the company to protect the servers, reducing
-the number of successful hackings significantly.Ensured accountability in server access by disabling root login, using 2FA , requiring all
-developers use SSH keys and creating a role-based access system using Bash.}
+          {Led the cyber security team in the company to protect the servers and mitigate any hacking attempts.Ensured accountability in server access by disabling root login, using 2FA , requiring all
+developers use SSH keys and creating a role-based access system.}
         \resumeItem{Panelist}
           {Gave a talk to over 20 start-ups on what is Big Data and how they can
 take advantage of it.Gave a short intro to Hadoop and Map Reduce.}
@@ -115,7 +126,7 @@ take advantage of it.Gave a short intro to Hadoop and Map Reduce.}
       {Software Engineering Consultant}{Sept 2015 - Dec 2016}
       \resumeItemListStart
         \resumeItem{XPRIZE BomaEd}
-          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Built a custom android based OS that can be easily installed on any device for the kids.}
+          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Customised the android OS to be easily installed on low powered devices for the kids.}
         \resumeItem{KaziPlus}
           {Helped in the development of the recruitment site for developers and designers.}
       \resumeItemListEnd
@@ -126,14 +137,14 @@ take advantage of it.Gave a short intro to Hadoop and Map Reduce.}
       \resumeItemListStart
         \resumeItem{National Health Insurance Fund}
           {Redesigned the National Health Insurance Fund(NHIF) application following Material
-Design principles , increasing downloads to over 100K on Playstore, fixed previous race
+Design principles , increasing downloads on Playstore, fixed previous race
 conditions and crashing issues.}
         \resumeItem{Soja}
           {Soja is a visitor management system. Designed and developed the mobile application. Deployed the server side code to the company's servers and set up the initial schema.}
       \resumeItemListEnd
     \resumeSubheading
       {Jomo Kenyatta University of Technology}{Nairobi, KE}
-      {Project Leader}{May 2017 - Present}
+      {Project Leader}{May 2017 - July 2018}
       \resumeItemListStart
         \resumeItem{Volunteer Tutor}
           {Introduced over 40 students to machine learning using Tensorflow by building a
@@ -146,20 +157,26 @@ Convolutional Neural Network(CNN) that categorizes objects in images.Taught a 4-
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+   \resumeSubItem{Deep Learning Indaba - www.deeplearningindaba.com}
+      {Attended a one-week machine learning bootcamp in Cape town, South Africa. Presented my research at the conference as a poster.}
+      \resumeSubItem{Black in AI workshop at NeurIPS}
+      {Research poster accepted for presentation at the second Black in AI workshop in Montreal, Canada.}
+       \resumeSubItem{Book Author, PacktPub}
+      {Writing a book on introduction to Java with PackPub. The book is in editorial review and slated for publishing in Januray, 2019.} 		\resumeSubItem{Guest Speaker- Data Science for Business Meetup}
+      {Gave a talk to businesses on my experience building data products and how they can start to use data for decision making.}
     \resumeSubItem{MPESA SDK}
       {Open source SDK to enable developers to easily accept mobile payments in their apps.}
-    \resumeSubItem{Research Speaker}
-      {Presented my research to over 100 people on fraud detection in Fintech using machine learning at the first IndabaXKenya conference on Artificial Intelligence}
-    \resumeSubItem{Big Data panelist}
-      {Advised over 20 SMEs and startups how to harness Big data and Machine Learning to cut costs and
-improve efficiency}
+    \resumeSubItem{Speaker}
+      {Presented my research to over 100 people on fraud detection in Fintech using machine learning at the first IndabaXKenya conference on Artificial Intelligence.}
+    \resumeSubItem{Panelist - Big Data for SMEs}
+      {Selected as a panelist at the Big Data for SMEs talk in which I advised on how SMEs can harness big data and data science to increase revenue and retain users.}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Jomo Kenyatta University of Science and Technology}{2019}
+      {Jomo Kenyatta University of Science and Technology}{}
       {Bachelor of Engineering in Electrical and Computer;  GPA: 3.5}
       \
   \resumeSubHeadingListEnd
