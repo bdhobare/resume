@@ -75,7 +75,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://github.com/bdhobare}{\Large Miles Obare}} & Email : \href{mailto:bdhobare@gmail.com}{bdhobare@gmail.com}\\
-  \href{https://github.com/bdhobare}{www.bdhobare.com} & Mobile : +254-700864995 \\
+  \href{https://github.com/bdhobare}{github.com/bdhobare} & Mobile : +254-700864995 \\
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
@@ -85,60 +85,55 @@
       {Microsoft Corporation}{Nairobi, KE}
       {Software Engineer II}{May 2019 - Present}
       \resumeItemListStart
-        \resumeItem{OS Application Compatibility}
-          {Building tools that detect and mitigate application compatibility issues when a customer is updating/upgrading the OS.This involves analysing the application OS API coverage and applying blocks or mitigations in form of shims that intercept API calls to the kernel.}
+        \resumeItem{Application Compatibility}
+          {Building tools that detect and mitigate application compatibility issues when a customer is updating/upgrading their Windows OS.This involves analyzing the application's OS API coverage and applying blocks or mitigations in form of shims that intercept API calls to the kernel.It also involves using the data from the test lab and determining  if the customer machine is ready for the update.}
         \resumeItem{Azure Migration Compatibility}
-          {Building cloud tools to determine app incompatibilities on the OS when a customer is migrating their server workloads to Azure.I am building a big data processing framework based on Apache Spark to analyse telemetry from customers to calculate the probablity of having incompatibilities on Azure.}
+          {Building cloud tools to determine incompatibilities on Windows when a customer is migrating their server workloads to Azure.I am building a big data processing framework based on Apache Spark to analyse telemetry from customers and determine the probablity of having incompatibilities on Azure and apply mitigations.This feature will ship in the release Azure Migrate tool on Azure.}
           \resumeItemListEnd
   \resumeSubheading
       {Betika}{Nairobi, KE}
       {Software Engineer, Backend}{Aug 2018 - May 2019}
       \resumeItemListStart
-        \resumeItem{Microservices}
-          {Containerized the backend services using Docker and moved the API to a microservices architecture using Kubernetes.Set up a CI/CD pipeline and a testing framework for automated deployments.This reduced deploymnet times for new features and number of bugs that go into production.}
-        \resumeItem{Digital Wallet}
-          {Built a digital wallet in Java for users to deposit and withdraw cash.Integrated the wallet with existing service providers: MPESA and Airtel Money. Set up a failure recovery mechanism for failed transactions.}
-        \resumeItem{Data Platform}
-          {Built a data processing and analysis platform on top of Apache Spark,PostgreSQL and BigQuery to inform other departments on the user behaviour and performance of the product.}
+        \resumeItem{Service containerization}
+          {Containerized the backend services using Docker and moved the payment and frontend APIs to Google Kubernetes Engine(GKE).Set up a CI/CD pipeline and a testing framework for automated deployments using Google Cloud Build and Container Registry.This reduced deploymnet times for new features and the number of bugs that slip into production.}
+        \resumeItem{Payment processing}
+          {Built a digital wallet in Java for users to deposit and withdraw cash.Integrated the wallet with existing service providers: MPESA and Airtel Money. Set up a failure recovery mechanism for failed transactions and an audit system. Setup the testing of the service using JUnit and deployment to GKE.}
+        \resumeItem{Realtime data analysis}
+          {Built a data processing and analysis platform on top of Apache Spark,PostgreSQL and BigQuery to inform other departments on the user behaviour and performance of the product.Setup pipelines using Databricks to run daily to do aggregations and update company dashboards.}
       \resumeItemListEnd
 \resumeSubheading
-      {Loanbee Limited}{Remote}
-      {Software Engineering Consultant}{Sept 2015 - Dec 2016}
+      {Loanbee Limited}{Nairobi, KE}
+      {Software Engineer, Data}{Dec 2017 - Aug 2018}
       \resumeItemListStart
-        \resumeItem{XPRIZE BomaEd}
-          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Built a custom android based OS that can be easily installed on any device for the kids.}
-        \resumeItem{KaziPlus}
-          {Helped in the development of the recruitment site for developers and designers.}
+        \resumeItem{Alternative credit scoring}
+          {Built an alternative scoring scoring model to detemine loan eligibility for new users on the application using mobile transactions. The model was based on a fully-connected neural network and reduce the defaul rates to below 15\%.The project was presented at the Deep Learning Indaba conference in Cape Town,SA.}
+        \resumeItem{Fraud detection and mitigation}
+          {Built a fraud detection service to categorize users based on their activity and payment behaviour on the system. The model reduced cases of fraudulent people getting loans and items on credit. The model was based on gradient boosted trees and fully-connected neural networks.}
+        \resumeItem{ETL Data Pipeline}
+          {Built the data pipeline to clean and extract useful information from the data collected from customers while ensuring privacy.The pipeline was based on Apache Airflow and Apache Spark, both running on Google Dataflow. The pipeline was also used by the data science team to quickly iterate and test their models.}         
       \resumeItemListEnd
 \resumeSubheading
       {Deveint Limited}{Nairobi, KE}
-      {Senior Software Engineer}{May 2016 - Present}
+      {Software Developer}{May 2016 - Dec 2017}
       \resumeItemListStart
-      \resumeItem{Mobile Development}
-          {Started the initial team of Android and iOS developers.The team has since grown to over 4 developers and over 5 apps deployed to Playstore and Appstore with over 100k downloads in total.}
+      \resumeItem{Application Development}
+          {Built Android and iOS applications for the company's clients. Meeting with clients to make sure the requirements are met.Developed 3 applications to production with one over 100K users.}
         \resumeItem{Nairobi Securities Exchange}
-          {Led a team of 5 engineers to develop Android and iOS apps that enable users to access real-time trading statistics. Developed the client android and iOS applications.}
-        \resumeItem{REST API}
-          {Implemented the accompanying REST API for the apps and automating the conversion of
-8GB worth of historical data from Excel to a PostgreSQL database.Involved with authorisation, unit and integration testing and deployment of the API.}
-        \resumeItem{Continuous Delivery}
-          {Led the deployment of the company's server side code to Linux servers on AWS and GCP. Automated the process with Travis CI and reduced deployment time to monthly releases.}
+          {Led a team of 5 engineers to develop Android and iOS apps that enable users to access real-time trading statistics. Automated the migration of Excel trading data into PostgreSQL and HDFS for the applications to consume.}
         \resumeItem{Linux System Administration}
-          {Formed the first cyber security team in the company to protect the servers, reducing
-the number of successful hackings significantly.Ensured accountability in server access by disabling root login, using 2FA , requiring all
-developers use SSH keys and creating a role-based access system using Bash.}
-        \resumeItem{Code quality}
-          {Required all developers to use Git and Bitbucket to version their code. Set up the deployment pipeline using the Bitbucket API and git hooks. Enforced unit and integration tests in code before deployment.Improved bug tracking over two-fold.}
+          {Led the backend team in the company to protect the servers and mitigate hacking attempts. Ensured accountability in server access by disabling root logins, using 2FA, requiring all developers using SSH keys and creating a role-based access system.}
+        \resumeItem{Panelist}
+          {Gave a talk to over 20 start-ups on what is Big Data and how they can take advantahe of it to increase customer engagement and reduce churm. Gave a short introduction to Hadoop and MapReduce.}
       \resumeItemListEnd
       
     \resumeSubheading
       {Beyonde Labs}{Remote}
       {Software Engineering Consultant}{Sept 2015 - Dec 2016}
       \resumeItemListStart
-        \resumeItem{XPRIZE BomaEd}
-          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Built a custom android based OS that can be easily installed on any device for the kids.}
+        \resumeItem{XPRIZE Foundation}
+          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Customized the android OS to be easily installed on low powered devices in marginal areas of Africa.}
         \resumeItem{KaziPlus}
-          {Helped in the development of the recruitment site for developers and designers.}
+          {Helped in the development of the recruitment site for developers and designers in Kenya.}
       \resumeItemListEnd
       
     \resumeSubheading
@@ -146,18 +141,16 @@ developers use SSH keys and creating a role-based access system using Bash.}
       {Software Engineer Intern}{May - Sept. 2015}
       \resumeItemListStart
         \resumeItem{National Health Insurance Fund}
-          {Redesigned the National Health Insurance Fund(NHIF) application following Material
-Design principles , increasing downloads to over 100K on Playstore, fixed previous race
-conditions and crashing issues.}
+          {Redesigned the National Health Insurance Fund(NHIF) application following Material Design principles, increasing downloads to over 100K on Playstore, fixed previous race conditions and crashing issues.}
         \resumeItem{Soja}
-          {Soja is a visitor management system. Designed and developed the mobile application. Deployed the server side code to the company's servers and set up the initial schema.}
+          {Soja is a visitor management system. Designed and developed the mobile application. Deployed the server side code to the company's Linux servers on Linode and set up the initial MySQL database.}
       \resumeItemListEnd
     \resumeSubheading
       {Jomo Kenyatta University of Technology}{Nairobi, KE}
-      {Student Leader}{May 2017 - Present}
+      {Project Leader}{May 2017 - July 2018}
       \resumeItemListStart
-        \resumeItem{ACM ICPC - Team Leader}
-          {Led a team of 9 students to represent the school in the ACM-ICPC South African Finals.Finished third overall. Organizing weekly algorithmic contests based on problems from Hackerrank and Codeforces.}
+        \resumeItem{ACM ICPC South Africa - Team Lead}
+          {Led a team of 15 students to represent the school in the ACM-ICPC South African Finals.Finished third overall. Organizing weekly algorithmic contests based on problems from Hackerrank and Codeforces.}
         \resumeItem{Volunteer Tutor}
           {Introduced over 40 students to machine learning using Tensorflow by building a
 Convolutional Neural Network(CNN) that categorizes objects in images.Taught a 4-week introductory course on Android basics and unit testing.}
@@ -169,20 +162,26 @@ Convolutional Neural Network(CNN) that categorizes objects in images.Taught a 4-
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
+  	\resumeSubItem{Deep Learning Indaba - www.deeplearningindaba.com}
+      {Indaba is a commmunity of machine learning experts and enthusiasts in Africa. Attended a one-week machine learning bootcamp in Cape Town, SA and presented my research work on credit scoring as a poster. Co-organized the 2019 Indaba in Kenya with over 500 researchers and students in attendance.}
+  	\resumeSubItem{Black in AI workshop at NeurIPS}
+      {NeurIPS is the largest conference on artificial intelligence held annualy in Canada.Research poster accepted for presentation at the second Black in AI(BAI) workshop at NeurIPS in Montreal, Canada.}
+  	\resumeSubItem{Book Author, PacktPub}
+      {Co-authored a book on object-oriented programming in Java with PackPub. The book introduces readers to the basics of OOP like Classes and objects, inheritance, polymorphism, abstraction and encapsulation. The book can be read here:\href{https://www.packtpub.com/application-development/java-fundamentals}{ packtpub.com/application-development/java-fundamentals}}
     \resumeSubItem{MPESA SDK}
-      {Open source SDK to enable developers to easily accept mobile payments in their apps.}
-    \resumeSubItem{IZI Address}
-      { A new addressing system based on Open Location Code and what3words for people living in areas with no official addressing system.}
-    \resumeSubItem{Kenya Decides}
-      {A platform for Kenyans express their political views openly and track accountability from leaders.}
+      {Open source SDK to enable developers to easily accept mobile payments in their apps using MPESA.}
+    \resumeSubItem{Guest Speaker - Data science for Business Meetup}
+      {Gave a talk small businesses on my experience building data products and how they can start to use data systems for decision making.}
+    \resumeSubItem{Speaker- IndabaX Kenya}
+      {Presented my research work to over 100 people on fraud detection in Fintech using machine learning at the first IndabaX Kenya.}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Jomo Kenyatta University of Science and Technology}{Nairobi, KE}
-      {Bachelor of Engineering in Electrical and Computer;  GPA: 3.5}
+      {Jomo Kenyatta University of Science and Technology}{}
+      {BSc. Electrical and Computer Engineering;  Uppper Division Honours}
       \
   \resumeSubHeadingListEnd
 
