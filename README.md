@@ -1,3 +1,3 @@
 # Resume
 
-[Resume.pdf](https:://github.com/bdhobare/resuume/resume.pdf)
+[Resume.pdf](https://github.com/bdhobare/resume/blob/master/resume.pdf)
