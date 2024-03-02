@@ -1,4 +1,4 @@
-%-------------------------
+ %-------------------------
 % Resume 
 % Author : OBADIAH OBARE
 % License : MIT
@@ -76,88 +76,76 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://github.com/bdhobare}{\Large Miles Obare}} & Email : \href{mailto:bdhobare@gmail.com}{bdhobare@gmail.com}\\
   \href{https://github.com/bdhobare}{github.com/bdhobare} & Mobile : +44-7835799066 \\
-  \href{}{} & \href{https://www.linkedin.com/in/bdhobare/}{linkedin.com/in/bdhobare} \\
+  \href{}{London, UK} & \href{https://www.linkedin.com/in/bdhobare/}{linkedin.com/in/bdhobare} \\
 \end{tabular*}
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
+    \resumeSubheading
+      {Booking.com Limited}{London, UK}
+      {Software Engineer}{April 2023 - Present}
+      \resumeItemListStart
+        \resumeItem{API Gateway}
+          {Development and deployment of an API gateway on AWS and GCP that serves Booking.com APIs to external users. These include critical company APIs that manage bookings and card holder data(PCI compliant traffic). Development of kubernetes operators and controllers that reconcile state in the cluster. Development of envoy proxies and service mesh integrations to route and manage traffic into internal services. Authoring Terraform modules to manage the infrastructure on cloud. Configuration and management of the DNS setup and networking into the internal services from the public. Involvement in live incident resolutions and capacity management.}
+          \resumeItemListEnd
+          \textbf{Relevant Skills: }{Go, Terraform, Kubernetes, AWS, GCP} 
   \resumeSubheading
       {Meta Corporation}{London, UK}
-      {Production Engineer}{Feb 2021 - Present}
+      {Production Engineer}{Feb 2021 - March 2023}
       \resumeItemListStart
         \resumeItem{Media Processing Infrastructure}
-          {Implementing media protocols(RTP,SDP,webRTC) that are used for both encoding and decoding video and audio frames used in Meta's applications. Integrating with other Meta media stack at the protocol and infra levels. Owning the end to end release process for this infrastructure and it's health.}
-          \resumeItem{Distributed Load-balancing and scaling}
-          {Implementing the back-end infrastructure used by this media service, it's scalability and reliability. Implementing end-to-end scaling solutions for burst traffic and elastic user patterns. Ensuring low latency and jitter buffers by implementing a geo-colocation load balancer and automated regression testing.}
+          {Implemented media protocols(RTP, SDP, WebRTC) that were used for both encoding and decoding video and audio frames used in Meta's applications. Integrated with other Meta media stack at the protocol and infra levels. Owned the end to end release process for this infrastructure and it's health.}
+          \resumeItem{Distributed Load balancing}
+          {Implemented the back-end load balancer used by this media service, it's scalability and reliability. Implemented end-to-end scaling solutions for burst traffic and elastic user patterns. Ensured low latency and jitter buffers by implementing a geo-colocation load balancer and automated regression testing.}
            \resumeItem{Service Reliability}
-          {Owning the reliability of the video conferencing infra, including SLOs/SLIs, alerting, monitoring and observability.}
+          {Owned the reliability of the video conferencing infra, including SLOs/SLIs, alerting, monitoring and observability.}
           \resumeItemListEnd
-          \textbf{Relevant Skills: }{C++, Python, Rust, Backend development, load balancing, service reliability and deployment} 
+          \textbf{Relevant Skills: }{C++, Rust, Python, Load Balancers, Reliability, Observability} 
   \resumeSubheading
       {Microsoft Corporation}{Nairobi, KE}
-      {Software Engineer II}{May 2019 - Feb 2021}
+      {Software Engineer}{May 2019 - Feb 2021}
       \resumeItemListStart
         \resumeItem{Application Compatibility}
-          {Building tools that detect and mitigate application compatibility issues when a customer is updating/upgrading their Windows OS.This involves analyzing the application's OS API coverage and applying blocks or mitigations in form of shims that intercept system calls to the operating system.It also involves using the data from the test lab and determining  if the customer machine is ready for the update based on their hardware and software configuration.}
+          {Built tools that detected and mitigated application compatibility issues when a customer is updating/upgrading their Windows OS. This involved analyzing the application's OS API coverage and applying blocks or mitigations in form of shims that intercept system calls to the operating system. It also involved using the data from the test lab and determining  if the customer machine is ready for the update based on their hardware and software configuration.}
         \resumeItem{Azure Migration Tooling}
-          {Building cloud tools to determine incompatibilities on on-prem servers when a customer is migrating their workloads to Azure.I am building a big data processing framework based on Apache Spark to analyse telemetry from customers and determine the probablity of having incompatibilities on Azure and apply relevant mitigations.}
+          {Built cloud tools to determine incompatibilities on on-prem servers when a customer is migrating their workloads to Azure. Built a big data processing system based on Apache Spark to analyse telemetry from customers and determine the probablity of having incompatibilities on Azure and apply relevant mitigations.}
           \resumeItemListEnd
-		  \textbf{Relevant Skills: }{Java, Python, C\#, Data pipelines, Azure, Cloud deployments}
+		  \textbf{Relevant Skills: }{Java, C\#, Azure, Apache Spark, Python}
 \resumeSubheading
       {Loanbee Limited}{Nairobi, KE}
-      {Software Engineer, Data}{Dec 2017 - May 2019}
+      {Software Engineer}{Dec 2017 - May 2019}
       \resumeItemListStart
         \resumeItem{Alternative credit scoring}
-          {Built an alternative scoring scoring model to detemine loan eligibility for new users on the application using mobile transactions. The model was based on a fully-connected neural network and reduced the default rates to below 15\%.The project was presented at the Deep Learning Indaba conference in Cape Town,SA.}
-        \resumeItem{Fraud detection and mitigation}
-          {Built a fraud detection service to categorize users based on their activity and payment behaviour on the system. The model reduced cases of fraudulent people getting loans and items on credit. The model was based on gradient boosted trees and fully-connected neural networks.}
-        \resumeItem{ETL Data Pipeline}
-          {Built the data pipeline to clean and extract useful information from the data collected from customers while ensuring privacy.The pipeline was based on Apache Airflow and Apache Spark, backed with Google Dataflow and Pubsub. The pipeline was also used by the data science team to quickly iterate and test their models.}         
+          {Built and deployed an alternative credit scoring model to detemine  loan eligibility for customers based on their mobile money transactions. The model was based on a fully-connected neural network and reduced the default rates by 15\%. Project presented at the Deep Learning Indaba research conference in Cape Town.}
+        \resumeItem{Fraud detection}
+          {Built and deployed a fraud detection service to categorize users based on their activity and payment behaviour on the system. The model reduced cases of fraudulent people getting loans and items on credit. The model was based on gradient boosted trees and fully-connected neural networks.}
+        \resumeItem{ETL Data Pipelines}
+          {Built the data pipelines to clean and extract useful information from the data collected from customers while ensuring privacy.The pipeline was based on Apache Airflow and Apache Spark, backed with Google Dataflow and Pubsub. The pipeline was also used by the data science team to quickly iterate and test their models.}         
       \resumeItemListEnd
-      \textbf{Relevant Skills: }{Java, Python, Kubernetes, Docker, Data pipelines, Google Cloud}
+      \textbf{Relevant Skills: }{Java, Python, Kubernetes, Apache Spark, Google Cloud}
 \resumeSubheading
       {Deveint Limited}{Nairobi, KE}
-      {Software Developer}{May 2016 - Dec 2017}
+      {Senior Software Developer}{May 2016 - Dec 2017}
       \resumeItemListStart
-      \resumeItem{Application Development}
-          {Built Android and iOS applications for the company's clients. Meeting with clients to make sure the requirements are met.Developed 3 applications to production with one over 100K users.}
+      \resumeItem{Mobile Application Development}
+          {Built Android and iOS applications for the company's clients. Meeting with clients to collect the requirements and align on the project progress. Released 3 applications to Google Playstore and Apple App Store with over 500K combined users.}
         \resumeItem{Nairobi Securities Exchange}
-          {Led a team of 5 engineers to develop Android and iOS apps that enable users to access real-time trading statistics. Automated the migration of Excel trading data into PostgreSQL and HDFS for the applications to consume.}
+          {Led a team of 5 engineers to develop mobile applications and backends that integrate with the national securities exchange and enable users to access real-time trading data. Automated the migration of historical trading data into PostgreSQL and Hadoop from the legacy storage systems for the applications to consume.}
         \resumeItem{Linux System Administration}
-          {Led the backend team in the company to protect the servers and mitigate hacking attempts. Ensured accountability in server access by disabling root logins, using 2FA, requiring all developers using SSH keys and creating a role-based access system.}
-        \resumeItem{Panelist}
-          {Gave a talk to over 20 start-ups on what is Big Data and how they can take advantahe of it to increase customer engagement and reduce churm. Gave a short introduction to Hadoop and MapReduce.}
-      \resumeItemListEnd
-      
-    \resumeSubheading
-      {Beyonde Labs}{Remote}
-      {Software Engineering Consultant}{Sept 2015 - Dec 2016}
-      \resumeItemListStart
-        \resumeItem{XPRIZE Foundation}
-          {BomaEd is a learning platform for kids in areas with no teachers. Researched the initial product and developed the prototype. Customized the android OS to be easily installed on low powered devices in marginal areas of Africa.}
-        \resumeItem{KaziPlus}
-          {Helped in the development of the recruitment site for developers and designers in Kenya.}
+          {Led the backend team in the company to deploy, manage and secure the servers. Ensured accountability in server access by disabling root logins, enforcing 2FA, enforcing use of SSH keys and creating a role-based access system.}
+        \resumeItem{Incident management}
+          {Led live incidents investigations and resolutions.}
       \resumeItemListEnd
       
     \resumeSubheading
       {Webtribe Limited}{Nairobi, KE}
       {Software Engineer Intern}{May - Sept. 2015}
       \resumeItemListStart
-        \resumeItem{National Health Insurance Fund}
+        \resumeItem{Mobile Application Development}
           {Redesigned the National Health Insurance Fund(NHIF) application following Material Design principles, increasing downloads on Playstore, fixed previous race conditions and crashing issues.}
         \resumeItem{Soja}
-          {Soja is a visitor management system. Designed and developed the mobile application. Deployed the server side code to the company's Linux servers on Linode and set up the initial MySQL database.}
-      \resumeItemListEnd
-    \resumeSubheading
-      {Jomo Kenyatta University of Technology}{Nairobi, KE}
-      {Project Leader}{April 2017 - Dec 2017}
-      \resumeItemListStart
-        \resumeItem{ACM ICPC South Africa - Team Lead}
-          {Led a team of 15 students to represent the school in the ACM-ICPC South African Finals Organized weekly algorithmic contests based on problems from Hackerrank and Codeforces.}
-        \resumeItem{Volunteer Tutor}
-          {Introduced over 40 students to machine learning using Tensorflow by building a
-neural network that categorizes objects in images.Taught a 4-week introductory course on Android basics and unit testing.}
+          {Soja is a visitor management system. Designed and developed the initial mobile application. Developed and deployed the backend code to the company's Linux servers on Linode and set up the initial MySQL database.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -166,18 +154,18 @@ neural network that categorizes objects in images.Taught a 4-week introductory c
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-	\resumeSubItem{Book Author, PacktPub}
+	\resumeSubItem{Book Author, Java, PacktPub}
       {Co-authored a book on object-oriented programming in Java with PackPub. The book introduces readers to the basics of OOP like Classes and objects, inheritance, polymorphism, abstraction and encapsulation. The book can be read here:\href{https://www.packtpub.com/application-development/java-fundamentals}{ packtpub.com/application-development/java-fundamentals}}  	
+	\resumeSubItem {Spotify Discover Weekly}
+	{An open source Rust based service to archive your Discover Weekly song with implementation of Spotify Auth flow.}\href{https://github.com/bdhobare/discover-weekly}{github.com/bdhobare/discover-weekly}  	
   	\resumeSubItem{Deep Learning Indaba - www.deeplearningindaba.com}
       {Indaba is a commmunity of machine learning experts and enthusiasts in Africa. Attended a one-week machine learning bootcamp in Cape Town, SA and presented my research work on credit scoring as a poster. Co-organized the 2019 Indaba in Kenya with over 500 researchers and students in attendance.}
   	\resumeSubItem{Black in AI workshop at NeurIPS}
       {NeurIPS is the largest conference on artificial intelligence held annually in Canada.Research poster accepted for presentation at the second Black in AI(BAI) workshop at NeurIPS in Montreal, Canada.}
     \resumeSubItem{MPESA SDK}
-      {Open source SDK to enable developers to easily accept mobile payments in their apps using MPESA.}
-    \resumeSubItem{Guest Speaker - Data science for Business Meetup}
+      {Open source SDK to enable developers to easily accept mobile payments in their apps using MPESA.}\href{https://github.com/bdhobare/mpesa-android-sdk}{github.com/bdhobare/mpesa-android-sdk}
+    \resumeSubItem{Panelist- Data science for Business Meetup}
       {Gave a talk to startups on my experience building data products and how they can start to use data systems for decision making.}
-    \resumeSubItem{Speaker- IndabaX Kenya}
-      {Presented my research work to over 100 people on fraud detection in Fintech using machine learning at the first IndabaX Kenya.}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -185,7 +173,7 @@ neural network that categorizes objects in images.Taught a 4-week introductory c
   \resumeSubHeadingListStart
     \resumeSubheading
       {Jomo Kenyatta University of Science and Technology}{}
-      {BSc. Electronics and Computer Engineering; Upper Honours}
+      {BSc. Electrical and Computer Engineering; Upper Honours}
       \
   \resumeSubHeadingListEnd
 
