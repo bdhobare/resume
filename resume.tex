@@ -83,11 +83,11 @@
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Booking.com Limited}{London, UK}
-      {Software Engineer}{April 2023 - Present}
+      {Booking.com}{London, UK}
+      {Senior Software Engineer}{April 2023 - Present}
       \resumeItemListStart
-        \resumeItem{API Gateway}
-          {Development and deployment of an API gateway on AWS and GCP that serves Booking.com APIs to external users. These include critical company APIs that manage bookings and card holder data(PCI compliant traffic). Development of kubernetes operators and controllers that reconcile state in the cluster. Development of envoy proxies and service mesh integrations to route and manage traffic into internal services. Authoring Terraform modules to manage the infrastructure on cloud. Configuration and management of the DNS setup and networking into the internal services from the public. Involvement in live incident resolutions and capacity management.}
+        \resumeItem{Core Infrastructure - API Gateway}
+          {Development and deployment of the API gateway on AWS and GCP that serves core Booking.com APIs to external users. These include critical company APIs that manage bookings and card holder data(PCI compliant traffic).Development of Kubernetes Operators that manage state in the cluster. Development of envoy proxies and service mesh integrations to route and manage traffic into internal services. Authoring Terraform modules to manage the infrastructure on AWS and GCP. Configuration and management of the DNS setup and networking of the services as well as the observability stack using Prometheus, Grafana and OpenTelemtry. Involvement in live incident resolutions, oncall and capacity management.}
           \resumeItemListEnd
           \textbf{Relevant Skills: }{Go, Terraform, Kubernetes, AWS, GCP} 
   \resumeSubheading
@@ -95,38 +95,38 @@
       {Production Engineer}{Feb 2021 - March 2023}
       \resumeItemListStart
         \resumeItem{Media Processing Infrastructure}
-          {Implemented media protocols(RTP, SDP, WebRTC) that were used for both encoding and decoding video and audio frames used in Meta's applications. Integrated with other Meta media stack at the protocol and infra levels. Owned the end to end release process for this infrastructure and its health.}
+          {Implemented media protocols(RTP, SDP, WebRTC) that were used for both encoding and decoding video and audio used in Meta's applications. Integrated with other Meta media stack at the protocol and infra levels. Owned the end to end release process for this infrastructure and its health.}
           \resumeItem{Distributed Load balancing}
           {Implemented the back-end load balancer used by this media service, it's scalability and reliability. Implemented end-to-end scaling solutions for burst traffic and elastic user patterns. Ensured low latency and jitter buffers by implementing a geo-colocation load balancer and automated regression testing.}
            \resumeItem{Service Reliability}
           {Owned the reliability of the video conferencing infra, including SLOs/SLIs, alerting, monitoring and observability.}
           \resumeItemListEnd
-          \textbf{Relevant Skills: }{C++, Rust, Python, Load Balancers, Reliability, Observability} 
+          \textbf{Relevant Skills: }{C++, Rust, Python, Traffic infrastructure, Reliability, Observability} 
   \resumeSubheading
       {Microsoft Corporation}{Nairobi, KE}
-      {Software Engineer}{May 2019 - Feb 2021}
+      {Software Engineer II}{May 2019 - Feb 2021}
       \resumeItemListStart
         \resumeItem{Application Compatibility}
           {Built tools that detected and mitigated application compatibility issues when a customer is updating/upgrading their Windows OS. This involved analyzing the application's OS API coverage and applying blocks or mitigations in form of shims that intercept system calls to the operating system. It also involved using the data from the test lab and determining  if the customer machine is ready for the update based on their hardware and software configuration.}
         \resumeItem{Azure Migration Tooling}
           {Built cloud tools to determine incompatibilities on on-prem servers when a customer is migrating their workloads to Azure. Built a big data processing system based on Apache Spark to analyse telemetry from customers and determine the probability of having incompatibilities on Azure and apply relevant mitigations.}
           \resumeItemListEnd
-		  \textbf{Relevant Skills: }{Java, C\#, Azure, Apache Spark, Python}
+		  \textbf{Relevant Skills: }{Java, Azure, Apache Spark, Python, Data infra}
 \resumeSubheading
       {Loanbee Limited}{Nairobi, KE}
-      {Software Engineer}{Dec 2017 - May 2019}
+      {Senior Software Engineer}{Dec 2017 - May 2019}
       \resumeItemListStart
-        \resumeItem{Alternative credit scoring}
+        \resumeItem{Credit scoring infrastructure}
           {Built and deployed an alternative credit scoring model to detemine  loan eligibility for customers based on their mobile money transactions. The model was based on a fully-connected neural network and reduced the default rates by 15\%. Project presented at the Deep Learning Indaba research conference in Cape Town.}
         \resumeItem{Fraud detection}
           {Built and deployed a fraud detection service to categorize users based on their activity and payment behaviour on the system. The model reduced cases of fraudulent people getting loans and items on credit. The model was based on gradient boosted trees and fully-connected neural networks.}
         \resumeItem{ETL Data Pipelines}
           {Built the data pipelines to clean and extract useful information from the data collected from customers while ensuring privacy.The pipeline was based on Apache Airflow and Apache Spark, backed with Google Dataflow and Pubsub. The pipeline was also used by the data science team to quickly iterate and test their models.}         
       \resumeItemListEnd
-      \textbf{Relevant Skills: }{Java, Python, Kubernetes, Apache Spark, Google Cloud}
+      \textbf{Relevant Skills: }{Java, Python, Kubernetes, Apache Spark, GCP, ML infrastructure}
 \resumeSubheading
       {Deveint Limited}{Nairobi, KE}
-      {Senior Software Developer}{May 2016 - Dec 2017}
+      {Lead Software Developer}{May 2016 - Dec 2017}
       \resumeItemListStart
       \resumeItem{Mobile Application Development}
           {Built Android and iOS applications for the company's clients. Meeting with clients to collect the requirements and align on the project progress. Released 3 applications to Google Playstore and Apple App Store with over 500K combined users.}
@@ -138,15 +138,6 @@
           {Led live incidents investigations and resolutions.}
       \resumeItemListEnd
       
-    \resumeSubheading
-      {Webtribe Limited}{Nairobi, KE}
-      {Software Engineer Intern}{May - Sept. 2015}
-      \resumeItemListStart
-        \resumeItem{Mobile Application Development}
-          {Redesigned the National Health Insurance Fund(NHIF) application following Material Design principles, increasing downloads on Playstore, fixed previous race conditions and crashing issues.}
-        \resumeItem{Soja}
-          {Soja is a visitor management system. Designed and developed the initial mobile application. Developed and deployed the backend code to the company's Linux servers on Linode and set up the initial MySQL database.}
-      \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
